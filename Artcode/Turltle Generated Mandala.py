@@ -3,9 +3,9 @@ import random
 
 # Get user input
 age = int(input("What is your age? A close number is acceptable: "))
-favorite color = input("What is your favorite color? ")
-favorite movie = input("What is your favorite Movie, Book, or Video game? ")
-favorite song = input("What is your favorite Song? ")
+favoriteColor = input("What is your favorite color? ")
+favoriteMovie = input("What is your favorite Movie, Book, or Video game? ")
+favoriteSong = input("What is your favorite Song? ")
 Pet = input("What is your pet's name? (You can make a name up if needed) ")
 skill = input("If you could instantly master any skill, what would it be? ")
 hobby = input("What is your favorite Hobby? ")
