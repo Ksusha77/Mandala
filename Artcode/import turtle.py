@@ -5,7 +5,6 @@ bob = turtle.Turtle()
 turtle.speed(0)
 
 for _ in range(10):
-    import random;
     x = 5
     bob.right(20 + x)
     bob.forward(20 + x)
@@ -45,4 +44,5 @@ for _ in range(10):
     bob.forward(60 + x)
     bob.right(85 + x)
     x = x + 30
+
 turtle.done()
