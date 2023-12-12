@@ -59,7 +59,7 @@ def set_turtle_color(input_color):
         print("Color not found in dictionary.")
 
 
-print("Out of these colors what is your favorite: Color Options: red, light_green, blue, yellow, cyan, orange, green, purple,")
+print("Out of these colors what is your favorite: Color Options: red, lightgreen, blue, yellow, cyan, orange, green, purple,")
 user_input = input("Enter a color: ")
 set_turtle_color(user_input)
 
