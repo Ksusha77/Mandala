@@ -1,12 +1,13 @@
 import turtle
+import random
 
 wn = turtle.Screen()
 bob = turtle.Turtle()
 turtle.speed(0)
 
 for _ in range(10):
-    import random;
     x = random.randrange(30)
+    
     bob.right(20 + x)
     bob.forward(20 + x)
     bob.left(25 + x)
@@ -43,6 +44,5 @@ for _ in range(10):
     bob.forward(120 + x)
     bob.left(180 + x)
     bob.forward(60 + x)
-    bob.right(85 + x)
-    x = x + random.randrange(50)
+
 turtle.done()
